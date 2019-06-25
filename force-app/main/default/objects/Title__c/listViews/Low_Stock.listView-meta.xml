@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Low_Stock</fullName>
+    <columns>NAME</columns>
+    <columns>Genre__c</columns>
+    <columns>ReleaseDate__c</columns>
+    <columns>AvailableStock__c</columns>
+    <columns>TotalStock__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AvailableStock__c</field>
+        <operation>lessOrEqual</operation>
+        <value>3</value>
+    </filters>
+    <label>Low Stock</label>
+</ListView>
