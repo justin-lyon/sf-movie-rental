@@ -47,7 +47,7 @@
         <value>1</value>
     </params>
     <reportType>CustomEntityCustomEntity$Title__c$Stock__c</reportType>
-    <scope>user</scope>
+    <scope>organization</scope>
     <showDetails>false</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
