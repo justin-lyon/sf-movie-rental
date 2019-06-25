@@ -15,8 +15,8 @@ init_scratch_org () {
   delete_org $alias
   create_org $alias $duration $configPath
   source_push $alias
-  data_import $alias $dataPath
-  assign_permset $alias $permsetName
+  # data_import $alias $dataPath
+  # assign_permset $alias $permsetName
 }
 
 convert_deploy_mdtapi () {
