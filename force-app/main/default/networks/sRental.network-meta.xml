@@ -35,13 +35,18 @@
         </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
-        <profile>Admin</profile>
+        <permissionSet>MovieRentalCustomer</permissionSet>
+        <profile>admin</profile>
+        <profile>customer community plus login user</profile>
+        <profile>customer community user</profile>
+        <profile>customer community login user</profile>
+        <profile>customer community plus user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
-        <forgotPasswordPageOverrideSetting>Designer</forgotPasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
         <homePageOverrideSetting>Designer</homePageOverrideSetting>
-        <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>sRental1</picassoSite>
