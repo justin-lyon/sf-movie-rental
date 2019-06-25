@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalStock__c</fullName>
+    <description>Count of Total Stock of this Title.</description>
+    <externalId>false</externalId>
+    <label>Total Stock</label>
+    <summaryForeignKey>Stock__c.Title__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

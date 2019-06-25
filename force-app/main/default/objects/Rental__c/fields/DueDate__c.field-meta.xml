@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DueDate__c</fullName>
+    <defaultValue>TODAY() + 3</defaultValue>
+    <description>Date that the rental is due to be returned.</description>
+    <externalId>false</externalId>
+    <label>Due Date</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
