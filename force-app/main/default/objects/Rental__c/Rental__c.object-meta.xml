@@ -153,6 +153,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
     <label>Rental</label>
     <nameField>
         <displayFormat>R-{MMDDYY}-{0000}</displayFormat>
@@ -161,6 +162,6 @@
     </nameField>
     <pluralLabel>Rentals</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
