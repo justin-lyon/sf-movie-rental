@@ -4,10 +4,10 @@
         <calculatedFormula>RowCount</calculatedFormula>
         <datatype>number</datatype>
         <developerName>FORMULA1</developerName>
-        <isActive>false</isActive>
+        <isActive>true</isActive>
         <isCrossBlock>false</isCrossBlock>
         <masterLabel>Rented Stock</masterLabel>
-        <scale>2</scale>
+        <scale>0</scale>
     </aggregates>
     <chart>
         <backgroundColor1>#FFFFFF</backgroundColor1>
@@ -40,7 +40,7 @@
     <filter>
         <criteriaItems>
             <column>Stock__c.Status__c</column>
-            <isUnlocked>true</isUnlocked>
+            <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>Rented</value>
         </criteriaItems>
