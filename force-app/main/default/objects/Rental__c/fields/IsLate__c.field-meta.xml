@@ -3,7 +3,7 @@
     <fullName>IsLate__c</fullName>
     <description>Is Today after the Due Date?</description>
     <externalId>false</externalId>
-    <formula>TODAY() &gt; DueDate__c</formula>
+    <formula>TODAY() &gt; DueDate__c &amp;&amp; ISPICKVAL(Status__c, &#39;Active&#39;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Is Late</label>
     <trackTrending>false</trackTrending>
