@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#469737</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Movie Rental</label>
+    <navType>Console</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Title__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Movie_Rental_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Title__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
